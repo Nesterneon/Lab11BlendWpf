@@ -1,0 +1,102 @@
+﻿<Window x:Class="Lab11BlendWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab11BlendWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="280,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="105.02" Opacity="0.2" Fill="#FF8EE9EB"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="280,195,0,0" Stroke="Black" VerticalAlignment="Top" Width="105.02" Opacity="0.2" Fill="#FF8EE9EB"/>
+        <Rectangle Fill="#FF72584A" HorizontalAlignment="Left" Height="9.505" Margin="269.794,80.495,0,0" Stroke="Black" VerticalAlignment="Top" Width="235.246"/>
+        <Rectangle Fill="#FF72584A" HorizontalAlignment="Left" Height="8.421" Margin="269.794,295,0,0" Stroke="Black" VerticalAlignment="Top" Width="235"/>
+        <Path Data="M580.16654,236.03391 L580.41655,235.95058 592.8339,204.95003 605.65086,235.45512 639.08657,234.74223 610.7412,251.00453 623.50224,284.07645 594.25067,267.90949 562.16561,284.07643 577.16638,254.65924 554.58187,240.24232 548.66453,236.40892 z" Fill="#FF98170E" HorizontalAlignment="Left" Height="80.125" Margin="380.14,183.667,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="91.417"/>
+        <Path Data="M579.16667,249.08333" Fill="#FF72584A" HorizontalAlignment="Left" Height="1" Margin="579.167,249.083,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Data="M555.95768,239.49906" Fill="#FF72584A" HorizontalAlignment="Left" Height="1" Margin="635.708,241.667,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Data="M593.7507,210.00067 L594.25102,248.667 554.75,237.91724 582.58333,237.0839 z" HorizontalAlignment="Left" Height="39.666" Margin="384.223,187.167,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="40.501">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.147,0.154" StartPoint="0.853,0.846">
+                    <GradientStop Color="Black" Offset="0.544"/>
+                    <GradientStop Color="#FF971B1B"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M591.734,208.38028 L591.98391,248.79696 634.31748,236.87971 604.16239,236.3799 591.66737,208.37995" HorizontalAlignment="Left" Height="41.417" Margin="424.64,185.334,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="43.667">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.843,0.154" StartPoint="0.157,0.846">
+                    <GradientStop Color="Black" Offset="0.509"/>
+                    <GradientStop Color="#FFB11717"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M553.33306,235.37541 L594.3337,246.45829 565.24969,280.74887 578.74969,252.74983 553.25004,235.29175" HorizontalAlignment="Left" Height="46.459" Margin="382.224,215.875,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="42.083">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.989,0.266" StartPoint="0.011,0.734">
+                    <GradientStop Color="Black" Offset="0.403"/>
+                    <GradientStop Color="#FF971B1B" Offset="0.906"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M632.24962,235.08311 L592.50001,246.16633 620.74991,279.24964 609.74343,248.50709 z" HorizontalAlignment="Left" Height="45.167" Margin="425.14,216,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="40.75">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.014,0.259" StartPoint="0.986,0.741">
+                    <GradientStop Color="Black" Offset="0.342"/>
+                    <GradientStop Color="#FF971B1B" Offset="0.76"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M593.91646,265.67109 L563.49988,280.37925 592.05436,246.28507 620.58347,279.58793 593.74938,265.75" HorizontalAlignment="Left" Height="35.094" Margin="395.557,227.698,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="58.084">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.503,0" StartPoint="0.497,1">
+                    <GradientStop Color="Black" Offset="0.233"/>
+                    <GradientStop Color="#FFA81A1A" Offset="0.742"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="272.5,88.916,510.832,323.75"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="279.334,90,505.998,320.667"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="284.667,93.166,498.665,319.501"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="299.667,96.832,483.665,315.834"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="311.75,99.082,471.582,313.584"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="325.584,101.332,457.748,311.334"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="337.667,103.749,445.665,308.918"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="292.334,94.832,492.998,315.834"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="306.418,99.082,478.914,311.584"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="319.418,99.082,465.914,311.584"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="332.418,101.332,452.914,309.334"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="342.918,106.165,442.414,304.501"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="355.918,111.332,429.414,299.334"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="366.252,116.999,419.08,293.668" RenderTransformOrigin="-0.157,0.533"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="375.918,118.999,409.414,291.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="387.52,118.999,397.812,291.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="400.52,116.999,384.812,293.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="413.52,111.332,371.812,299.334" RenderTransformOrigin="12.135,1.583"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="426.52,106.165,358.812,304.501"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="439.52,103.749,345.812,306.918"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="452.52,97.082,332.812,313.584"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="465.52,94.832,319.812,315.834"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="478.52,93.166,306.812,317.501"/>
+        <Ellipse Stroke="#FFE4D035" Width="8" Height="10" Margin="489.085,90,296.247,320.667"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="347.667,111.332,435.665,301.334" RenderTransformOrigin="1.917,1.386"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="358.918,116.999,424.414,295.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="368.918,118.999,414.414,293.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="379.252,120.999,404.08,291.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="394.252,120.999,389.08,291.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="406.418,116.999,376.914,295.668"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="418.752,111.332,364.58,301.334"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="431.252,106.165,352.08,306.501" RenderTransformOrigin="9.317,4.969"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="443.667,101.082,339.665,311.584"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="458.667,97.082,324.665,315.584"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="471.001,94.832,312.331,317.834"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="482.54,93.166,300.792,319.501"/>
+        <Ellipse Stroke="#FFE4D035" Width="10" Height="8" Margin="492.294,90,291.038,322.667"/>
+        <Rectangle Fill="#FF72584A" HorizontalAlignment="Left" Height="206.084" Margin="269.794,88.916,0,0" Stroke="Black" VerticalAlignment="Top" Width="10"/>
+        <Rectangle Fill="#FF72584A" HorizontalAlignment="Left" Height="205" Margin="495.04,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="10"/>
+        <Path Data="M696.66667,207.33333 C694.4286,194.57636 689.66746,182.44763 686.44444,169.55556 683.03509,155.91813 692.66667,144.38015 692.66667,130 692.66667,105.08541 686.69939,80.356611 691.33333,55.333333"  HorizontalAlignment="Left" Height="95" Margin="413.521,90,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="11.953"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="390.02,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="105.02" Opacity="0.2" Fill="#FF8EE9EB"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="390.02,195,0,0" Stroke="Black" VerticalAlignment="Top" Width="105.02" Opacity="0.2" Fill="#FF8EE9EB"/>
+        <Rectangle Fill="#FF72584A" HorizontalAlignment="Left" Height="5" Margin="279.794,190,0,0" Stroke="Black" VerticalAlignment="Top" Width="215.206"/>
+        <Rectangle Fill="#FF72584A" HorizontalAlignment="Left" Height="205" Margin="385.02,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="5"/>
+    </Grid>
+</Window>
